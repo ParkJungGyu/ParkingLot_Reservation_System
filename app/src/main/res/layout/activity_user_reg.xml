@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserReg">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:paddingVertical="70dp"
+        android:textSize="30sp"
+        android:background="@drawable/parkefd"
+        android:layout_marginBottom="25dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID:"
+        android:layout_marginHorizontal="30dp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/regid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="30dp"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:text="PASSWORD:"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/regpw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="30dp"
+        android:inputType="textPassword"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EMAIL:"
+        android:layout_marginHorizontal="30dp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/regemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="30dp"
+        android:inputType="textEmailAddress"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/regok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginBottom="25dp"
+            android:layout_weight="1"
+            android:text="OK" />
+
+        <Button
+            android:id="@+id/regcancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginBottom="25dp"
+            android:layout_weight="1"
+            android:text="CANCEL" />
+    </LinearLayout>
+
+</LinearLayout>

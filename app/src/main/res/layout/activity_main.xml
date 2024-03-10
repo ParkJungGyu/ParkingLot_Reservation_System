@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:paddingVertical="50dp"
+        android:textSize="30sp"
+        android:background="@drawable/parkefd"
+        android:layout_marginBottom="25dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ID:"
+        android:layout_marginHorizontal="30dp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/mainid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="30dp"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PASSWORD:"
+        android:layout_marginHorizontal="30dp"
+        android:textColor="@color/black"
+        />
+
+    <EditText
+        android:id="@+id/mainpw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="30dp"
+        android:inputType="textPassword"
+        tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/mainlogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginBottom="25dp"
+        android:text="LOGIN" />
+
+    <TextView
+        android:id="@+id/mainreg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No Account Yet? Create an Account!"
+        android:textAlignment="center" />
+
+</LinearLayout>

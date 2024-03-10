@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Final</string>
+    <string name="format_map_click">지도 클릭\n(%1$.5f, %2$.5f)</string>
+    <string name="format_map_long_click">지도 롱 클릭\n(%1$.5f, %2$.5f)</string>
+</resources>
